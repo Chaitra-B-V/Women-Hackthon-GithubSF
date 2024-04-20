@@ -18,8 +18,8 @@ However, it’s important to note that a majority of people (including people ou
 
 **Why video instead of images?**
 
-To provide the visually impaired a richer experience of the world! Images often don’t provide dense information to the user to make certain decisions- sometime this could be critical, such as assessing if  there is a safety concern around..
-Coming soon: mobile app 
+To provide the visually impaired a richer experience of the world! Images often don’t provide dense information to the user to make certain decisions- sometime this could be critical, such as assessing if there is a safety concern around.
+
 
 This product can help with everyday decisions, ranging from:
 Does this outfit work?
