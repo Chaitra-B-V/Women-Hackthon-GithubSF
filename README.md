@@ -23,13 +23,14 @@ To provide the visually impaired a richer experience of the world! Images often 
 
 
 This product can help with everyday decisions, ranging from:
-Does this outfit work?
-
-Dataset - https://datasetsearch.research.google.com/search?src=0&query=violence%20video&docid=L2cvMTF0ZGZyMXk4MQ%3D%3D
-
-
+Does this outfit work? 
 To
 Am I in an unsafe situation right now?
 
 
-Coming soon - app version of the webpage!
+Dataset - https://datasetsearch.research.google.com/search?src=0&query=violence%20video&docid=L2cvMTF0ZGZyMXk4MQ%3D%3D
+
+
+
+
+Coming soon - movbile app version of the webpage!
