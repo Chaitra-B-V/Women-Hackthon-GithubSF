@@ -1,0 +1,22 @@
+docker build -t us-south1-docker.pkg.dev/cmpe257-376421/echosight/echosightfastapi:latest .
+
+docker buildx build --platform linux/amd64,linux/arm64 -t us-south1-docker.pkg.dev/cmpe257-376421/echosight/echosightfastapimp:latest --no-cache --push .
+
+
+docker inspect --format='{{.Architecture}}' us-south1-docker.pkg.dev/cmpe257-376421/echosight/echosightfastapimp:latest
+
+docker buildx imagetools inspect us-south1-docker.pkg.dev/cmpe257-376421/echosight/echosightfastapimp:latest
+
+docker push us-south1-docker.pkg.dev/cmpe257-376421/echosight/echosightfastapimp:latest
+
+docker run --env-file .env -e PORT=8080 -p 8080:8080 us-south1-docker.pkg.dev/cmpe257-376421/echosight/echosightfastapimp:latest
+
+docker inspect us-south1-docker.pkg.dev/cmpe257-376421/echosight/echosightfastapi:latestg
+
+gcloud run deploy echosightgcr \
+    --image=us-south1-docker.pkg.dev/cmpe257-376421/echosight/echosightfastapimp:latest
+    --region=us-central-1
+
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q) -f
