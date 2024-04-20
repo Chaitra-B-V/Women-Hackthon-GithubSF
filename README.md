@@ -1,3 +1,6 @@
+![IMG-20240420-WA0001](https://github.com/Chaitra-B-V/Women-Hackthon-GithubSF/assets/31518077/37b042f7-019c-4a7e-85df-c20e6c4d66d8)
+
+
 # SightPal
 
  A Companion for the visually impaired!
