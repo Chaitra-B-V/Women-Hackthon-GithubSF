@@ -1,5 +1,6 @@
-<img src="![image](https://github.com/Chaitra-B-V/Women-Hackthon-GithubSF/assets/112594201/4c7e3b78-8c7a-4fde-a12f-c3867351be91)" width="500" height="500">
 
+
+![Visual](https://github.com/Chaitra-B-V/Women-Hackthon-GithubSF/assets/112594201/d1280eab-f734-423d-9108-b8b9061da0b4)
 
 
 # SightPal
