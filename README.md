@@ -37,6 +37,6 @@ Foundational Model GPT-4 Vision
 
 GPT-4 Finetuned - We are Fine-tuning the Foundational Model using the Dataset.
 
-
+We are making it conversational with respect to the Video
 
 Coming soon - mobile app version of the webpage!
