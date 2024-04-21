@@ -156,7 +156,7 @@ def simulate_openai_api_call(base64Frames: list) -> Any:
     {
         "role": "user",
         "content": [
-            "These are frames of a video. Create a video description for a visually impaired person. Specifically, I want to know if there's anything of interest that would affect the visually impaired person's decision making on safety. I don't need the full description of everything going on in the environment, but I need to be alerted if there's a concern, and reassured if not.",
+            "These are frames of a video. Create a video description for a visually impaired person. Specifically, I want to know if there's anything of interest that would affect the visually impaired person's decision making on safety. I don't need the full description of everything going on in the environment, but I need to be alerted if there's a concern, and reassured if not. Please limit the response to 4 sentences unless absolutely critical. Imagine you are talking to a friend, make this conversational. Please start your response with a one sentence summary of the situation.",
             *map(lambda x: {"image": x, "resize": 768}, base64Frames[0::60]),
         ],
     },
